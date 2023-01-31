@@ -25,6 +25,9 @@ namespace CoreProject
          * Referans verilir; Data>Dependencies>sağ tık>add project referans>Entity
          *                   BusinessLayer>Dependencies>sağ tık>add project referans>Data Ac + Entity
          *                   UI Layer>Dependencies>sağ tık>add project referans>Data Ac + Entity + Business
+         *                   
+         * Adım: Migration İşlemleri
+         * 
          */
     }
 }
