@@ -18,8 +18,13 @@ namespace CoreProject
          * 
          * Entity Framework Core Paketleri Yüklenmesi bunlar; Data Access > Manage > (Entity Framework Core + Entity Framework Core.Design + Entity Framework Core.SqlServer + Entity Framework Core.Tools
          * 
-         * Adım: Data Access de klasörlerin oluşturulması. Concrete, Context, Abstract, Repositories
+         * Adım: Data Access de klasörlerin oluşturulması. Concrete, Abstract, Repositories
          * 
+         * Adım: Connection String Ve Context Sınıfı oluşturulması
+         * Data>Concrete>Context
+         * Referans verilir; Data>Dependencies>sağ tık>add project referans>Entity
+         *                   BusinessLayer>Dependencies>sağ tık>add project referans>Data Ac + Entity
+         *                   UI Layer>Dependencies>sağ tık>add project referans>Data Ac + Entity + Business
          */
     }
 }
