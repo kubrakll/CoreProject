@@ -10,7 +10,8 @@ namespace CoreProject
         /*
          * Adım: Katmanlar oluşturulur.
          * Entity Layer, Data Access Layer, Business Layer, Presentation Layer, Core Layer, Api
-         
+         * Solution üzerinde sağ tık > new project > class libray 
+         * 
          */
     }
 }
