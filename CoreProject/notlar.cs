@@ -31,7 +31,10 @@ namespace CoreProject
          * 
          * Packege Manager Console > DataLayer(veritabanı bağlantı stringimiz data acceste) > add-migration mig1 > update-database
          * 
-         * Adım:
+         * Adım: İlişkilerin Eklenmesi
+         * Blog-Category
+         * Blog-Comment
+         * "ICollection" bir interface iken "List" ise bir class tır. "ICollection", aralarında "List" de bulunan ve "ICollection" interfaceini implemente eden herhangi bir classı veya bu classlardan türetilen herhangi bir classı alabilirken, "List" sadece kendini ve List den türetilen sınıfları kabul eder.
          * 
          */
     }
