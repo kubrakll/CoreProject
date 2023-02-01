@@ -36,6 +36,13 @@ namespace CoreProject
          * Blog-Comment
          * "ICollection" bir interface iken "List" ise bir class tır. "ICollection", aralarında "List" de bulunan ve "ICollection" interfaceini implemente eden herhangi bir classı veya bu classlardan türetilen herhangi bir classı alabilirken, "List" sadece kendini ve List den türetilen sınıfları kabul eder.
          * 
+         * 
+         * Adım:Interfacelerin Tanımlanması
+         * DataAccess > Abstract > New Interface'ler eklenir ve doldurulur.
+         * DRY (Don’t Repeat Yourself) prensibine göre kod içindeki her parçacığın kendine özelleştirilmiş bir yapısı, görevi olmalıdır. Aksi halde bir değişiklik yapılması gerektiğinde o parçadan etkilenen diğer parçalarda da değişiklik yapılması gerekir ki bu da çoğu zaman karmaşıklığa sebep olur. Kod tekrarından kaçınılmalı, tekrarlamalar soyutlama yolu ile aşılmalıdır.
+         * 
+         * 
+         * Adım:
          */
     }
 }
