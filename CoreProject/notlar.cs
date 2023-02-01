@@ -62,6 +62,10 @@ namespace CoreProject
          *  DataAccess'e kalan entitiyler eklenir.
          *  EntityFramework klasörü doldurulur.
          *  Business Katmanı düzenlenir.
+         *  
+         *  
+         *  Adım: Controller tanımlanması(Kategoriler)
+         *  Kategorilerin Listelenmesi işlemi
 
          */
     }
