@@ -54,6 +54,14 @@ namespace CoreProject
          *  Tek Tek Repository yazmak yerine bu olarak generic hale getiriyor sebebi aynı işlemler sadece T değerleri farklı.
          *  Abstract > IGenericDal
          *  Repository > GenericRepository
+         *  
+         *  Adım: Managerların Yazılması --BusinessLayer
+         *  DataAccess' e EntityFramework adında klasör eklenir.
+         *  Abstract, ValidationRules ve Concrete klasörü oluşturulur ve içi doldurulur. Service ve Manager şeklinde. 
+         *  Burdaki amaç validasyon kurallarına göre CRUD işlemlerini yapmaktır.
+         *  DataAccess'e kalan entitiyler eklenir.
+         *  EntityFramework klasörü doldurulur.
+         *  Business Katmanı düzenlenir.
 
          */
     }
