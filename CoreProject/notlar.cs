@@ -42,7 +42,16 @@ namespace CoreProject
          * DRY (Don’t Repeat Yourself) prensibine göre kod içindeki her parçacığın kendine özelleştirilmiş bir yapısı, görevi olmalıdır. Aksi halde bir değişiklik yapılması gerektiğinde o parçadan etkilenen diğer parçalarda da değişiklik yapılması gerekir ki bu da çoğu zaman karmaşıklığa sebep olur. Kod tekrarından kaçınılmalı, tekrarlamalar soyutlama yolu ile aşılmalıdır.
          * 
          * 
-         * Adım:
+         * Adım:Repositorylerin Yazılması
+         *  DataAccess > Repositories > New Class'lar eklenir ve doldurulur.
+         *  "using var c = new Context()" sadece o metota ait oluyor yani her metot içine ayrı ayrı yazmamız gerek,
+         *  "Context c = new Context()" ise tüm metodların dışına yazıyoruz yani tümünü kapsıyor.
+         *  Soru : Ado net de SaveChanges' in karşılığı nedir?
+         *  Cevap: ExecuteNonQuery :)
+         *  
+         *  
+         *  Adım: Generic Repository
+
          */
     }
 }
