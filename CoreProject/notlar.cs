@@ -51,6 +51,9 @@ namespace CoreProject
          *  
          *  
          *  Adım: Generic Repository
+         *  Tek Tek Repository yazmak yerine bu olarak generic hale getiriyor sebebi aynı işlemler sadece T değerleri farklı.
+         *  Abstract > IGenericDal
+         *  Repository > GenericRepository
 
          */
     }
