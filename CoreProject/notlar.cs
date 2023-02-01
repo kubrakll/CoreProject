@@ -26,7 +26,12 @@ namespace CoreProject
          *                   BusinessLayer>Dependencies>sağ tık>add project referans>Data Ac + Entity
          *                   UI Layer>Dependencies>sağ tık>add project referans>Data Ac + Entity + Business
          *                   
-         * Adım: Migration İşlemleri
+         * Adım: Migration İşlemleri 
+         * coredemo' ya Entity paketleri eklenir. Entity Framework Core + Entity Framework Core.Design + Entity Framework Core.SqlServer + Entity Framework Core.Tools
+         * 
+         * Packege Manager Console > DataLayer(veritabanı bağlantı stringimiz data acceste) > add-migration mig1 > update-database
+         * 
+         * Adım:
          * 
          */
     }
