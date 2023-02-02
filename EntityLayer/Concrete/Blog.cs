@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EntityLayer.Concrete
+{
+    public class Blog
+    {
+        //Erişim Beliryeci Türü + Değişken Türü + İsim + get ve set
+
+        [Key]
+        public int BlogID { get; set; }
+
+        public string BlogTitle { get; set; }
+
+        public string BlogContent { get; set; }
+
+        public string BlogThumbnailImage { get; set; }
+
+        public string BlogImage { get; set; }
+
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
+        public DateTime BlogCreateDate { get; set; }
+
+        public bool BlogStatus { get; set; }
+
+        //İlişki
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
+
+        //İlişki
+        public List<Comment> Comments { get; set; }
+    }
+}
