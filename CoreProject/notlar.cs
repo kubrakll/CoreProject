@@ -74,6 +74,7 @@ namespace CoreProject
          *  
          *  Adım: Views > Shared > Layout işlemi yapılması
          *  _UserLayout
+         *  BlogController Eklenmesi
 
          */
     }
