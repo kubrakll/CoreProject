@@ -77,6 +77,14 @@ namespace CoreProject
          *  BlogController Eklenmesi
          *  
          *  Adım: Partial View Await Async Eklenmesi
+         *  
+         *  Adım: Blogların Listelenmesi
+         *  BusinessLayer > Abstract > IBlogService eklenir ve doldurulur.
+         *  BusinessLayer > Concrete > BlogManager eklenir ve doldurulur.
+         *  BlogController Index Sayfası doldurulur.
+         *  
+         * 
+         *  
 
          */
     }
