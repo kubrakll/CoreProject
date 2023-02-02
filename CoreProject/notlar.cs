@@ -67,6 +67,13 @@ namespace CoreProject
          *  Adım: Controller tanımlanması(Kategoriler)
          *  Kategori Manager düzenlenmesi
          *  Kategorilerin Listelenmesi işlemi
+         *  
+         *  Adım: Temanın Projeye Eklenmesi
+         *  wwwroot içine eklenir.
+         *  
+         *  
+         *  Adım: Views > Shared > Layout işlemi yapılması
+         *  _UserLayout
 
          */
     }
