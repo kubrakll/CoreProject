@@ -91,6 +91,9 @@ namespace CoreProject
          *  Eager Loading: nesneyi ihtiyaç anından hemen önce oluşturur ve bekletir. Linq sorgusu çalıştırıldığında verilerin tamamını  yükler ve hafızaya alır. Daha ucuz maliyetlidir.
             Lazy Loading : Bu yöntemde veriler sorguya bağlı olarak çekilir ancak veri setinin içindeki tüm dataları yüklemek yerine verilerin çağrıldıkça otomatik yüklenmesi söz konusudur. Daha pahalı işlemdir.
          *  
+         *  Adım: Blog Detaylandırılması
+         *  ReadMore kısmına karakter kısıtlaması getirilmesi yapıldı.
+         *  
 
          */
     }
