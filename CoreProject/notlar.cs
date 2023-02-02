@@ -65,6 +65,7 @@ namespace CoreProject
          *  
          *  
          *  Adım: Controller tanımlanması(Kategoriler)
+         *  Kategori Manager düzenlenmesi
          *  Kategorilerin Listelenmesi işlemi
 
          */
