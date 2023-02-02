@@ -83,7 +83,13 @@ namespace CoreProject
          *  BusinessLayer > Concrete > BlogManager eklenir ve doldurulur.
          *  BlogController Index Sayfası doldurulur.
          *  
-         * 
+         *  Adım: Include Metodu Ve Eager Load
+         *  Bloglarda kategori adı yerine kategori id gözüküyordu bu durum düzeltildi.
+         *  DataAccessLayer > IBlogDal içine yazılır.
+         *  EfBlogRepository içeriği doldurulur. Repositories içeriğindeki kullanılmayan kısımlar silinir.
+         *  IBlogService ve BlogManager ilgili kısımlar eklenir.
+         *  Eager Loading: nesneyi ihtiyaç anından hemen önce oluşturur ve bekletir. Linq sorgusu çalıştırıldığında verilerin tamamını  yükler ve hafızaya alır. Daha ucuz maliyetlidir.
+            Lazy Loading : Bu yöntemde veriler sorguya bağlı olarak çekilir ancak veri setinin içindeki tüm dataları yüklemek yerine verilerin çağrıldıkça otomatik yüklenmesi söz konusudur. Daha pahalı işlemdir.
          *  
 
          */
