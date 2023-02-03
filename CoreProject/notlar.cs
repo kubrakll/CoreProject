@@ -94,6 +94,11 @@ namespace CoreProject
          *  Adım: Blog Detaylandırılması
          *  ReadMore kısmına karakter kısıtlaması getirilmesi yapıldı.
          *  
+         *  Adım: Bloglara ait detay sayfası oluşturuldu.
+         *  IGenericDal'a ekleme yapıldı.
+         *  GenericRepository düzenlendi.
+         *  UserLayout düzenlendi(banner kaldırıldı).
+         *  
 
          */
     }
