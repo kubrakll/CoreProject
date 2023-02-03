@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+@await Html.PartialAsync("/Views/LayoutPartial/_Head.cshtml")
+
+<body>
+    <header>
+        <div class="top-bar_sub_w3layouts container-fluid">
+            <div class="row">
+                @await Html.PartialAsync("/Views/LayoutPartial/_Logo.cshtml")
+                @await Html.PartialAsync("/Views/LayoutPartial/_Logosag.cshtml")
+                @await Html.PartialAsync("/Views/LayoutPartial/_Logosagicon.cshtml")
+            </div>
+        </div>
+
+        <div class="header_top" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    @await Html.PartialAsync("/Views/LayoutPartial/_Navbar.cshtml")
+                    @await Html.PartialAsync("/Views/LayoutPartial/_Search.cshtml")
+
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    @*@await Html.PartialAsync("/Views/LayoutPartial/_Banner.cshtml")*@
+
+    @RenderBody()
+
+    @await Html.PartialAsync("/Views/LayoutPartial/_Footer.cshtml")
+    @await Html.PartialAsync("/Views/LayoutPartial/_Script.cshtml")
+</body>
+
+</html>
+
